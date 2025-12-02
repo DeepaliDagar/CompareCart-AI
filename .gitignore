@@ -1,0 +1,66 @@
+# Environment
+.env
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Generated files
+response.mp3
+recording.wav
+*.wav
+*.mp3
+*.m4a
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Large data files (keeping vectordb for LFS)
+*.csv
+*.parquet
+
+# Environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector DB/storage
+vectordb/
+chromadb/
+data/
+runs/
+
+# Audio/temp files
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.tmp
+*.bin
+
+# Streamlit cache
+.streamlit/
+
